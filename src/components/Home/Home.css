@@ -1,0 +1,79 @@
+.home {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f8f9fb 0%, #eef1f6 100%);
+}
+
+.home__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    circle at top,
+    rgba(0, 0, 0, 0.04),
+    transparent 60%
+  );
+}
+
+.home__content {
+  position: relative;
+  max-width: 720px;
+  padding: 40px 24px;
+  text-align: center;
+  animation: fadeUp 1s ease forwards;
+}
+
+.home__logo {
+  width: 280px;
+  height: auto;
+  margin-bottom: 28px;
+}
+
+.home__title {
+  font-size: 18px;
+  color: #444;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+
+.home__tagline {
+  font-size: 14px;
+  color: #777;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.home__services {
+  font-size: 14px;
+  color: #444;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+
+.home__actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.home__btn-contact {
+}
+
+.home__btn-contact:hover {
+}
+
+.home__btn-services {
+}
+
+.home__btn-services:hover {
+}
