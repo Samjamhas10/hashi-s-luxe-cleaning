@@ -20,7 +20,6 @@ function App() {
       <Pricing />
       <Contact />
       <Footer />
-      <h1>Welcome to Hashi's Luxe Cleaning!</h1>
     </div>
   );
 }
