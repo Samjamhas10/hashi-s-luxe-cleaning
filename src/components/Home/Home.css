@@ -31,14 +31,8 @@
   animation: fadeUp 1s ease forwards;
 }
 
-.home__logo {
-  width: 280px;
-  height: auto;
-  margin-bottom: 28px;
-}
-
 .home__title {
-  font-size: 18px;
+  font-size: 48px;
   color: #444;
   line-height: 26px;
   margin-bottom: 12px;
@@ -67,13 +61,50 @@
 }
 
 .home__btn-contact {
+  padding: 14px 30px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  background: transparent;
+  border: 2px solid #375aab;
+  color: #375aab;
+  transition: all 200ms ease;
+  cursor: pointer;
 }
 
-.home__btn-contact:hover {
+.home__btn-contact:hover,
+.home__btn-contact:focus {
+  background-color: #162c6e;
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 .home__btn-services {
+  padding: 14px 30px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  background: transparent;
+  border: 2px solid #375aab;
+  color: #375aab;
+  transition: all 200ms ease;
+  cursor: pointer;
 }
 
-.home__btn-services:hover {
+.home__btn-services:hover,
+.home__btn-services:focus {
+  background-color: #1f3a8a;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
