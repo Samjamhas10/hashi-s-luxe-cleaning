@@ -1,46 +1,33 @@
-footer {
-  background-color: #f8f8f8;
-  color: #333;
-  padding: 60px 20px;
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
 .footer__container {
   max-width: 1200px;
-  margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 40px;
-}
-
-.footer__about {
-  margin-bottom: 30px;
-}
-
-.footer__title {
-  font-size: 20px;
-  font-weight: 600;
-  color: #111;
-  margin: 0 0 8px 0;
-}
-
-.footer__subtitle {
-  font-size: 14px;
-  color: #555;
-  line-height: 1.6;
+  flex-wrap: nowrap;
 }
 
 .footer__row {
   display: flex;
-  flex-wrap: wrap; 
-  gap: 60px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 250px;
+  flex-shrink: 0;
 }
 
 .footer__section {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  min-width: 180px; 
+  min-width: 160px;
 }
 
 .footer__links {
@@ -55,46 +42,45 @@ footer {
 .footer__links a {
   text-decoration: none;
   color: #555;
-  transition: color 0.3s;
 }
 
 .footer__links a:hover {
   color: #111;
 }
 
-.footer__contact-list p {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  color: #444;
-  margin: 4px 0;
-}
-
 .footer__icon {
-  margin-right: 10px;
+  margin-right: 8px;
   color: #555;
 }
 
-.footer__contact-list p:hover {
-  color: #000;
-}
-
-
 .footer__copyright {
-  font-size: 12px;
-  color: #777;
+  max-width: 1200px;
+  margin: 20px auto 0;
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
   text-align: center;
-  margin-top: 40px;
-  border-top: 1px solid #ddd;
-  padding-top: 20px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
-@media (min-width: 768px) {
-  .footer__container {
-    flex-direction: column;
-  }
+.footer__contact-list {
+  padding: 0;
+  margin: 0;
+}
 
-  .footer__row {
-    justify-content: flex-start;
-  }
+.footer__contact-list a,
+.footer__contact-list p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  color: #555;
+  text-decoration: none;
+  word-break: normal;
+}
+
+.footer__icon {
+  flex-shrink: 0;
+  color: #555;
 }
