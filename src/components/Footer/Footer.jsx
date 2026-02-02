@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPhone, FaEnvelope, FaClock, FaMapMarkerAlt } from "react-icons/fa";
+import CleaningLogo from "../../assets/cleaning-logo.png";
 import "./Footer.css";
 
 function Footer() {
@@ -8,6 +9,12 @@ function Footer() {
       <div className="footer__container">
         <div className="footer__brand">
           <p className="footer__title">Hashi's Luxe Cleaning LLC</p>
+          <img
+            src={CleaningLogo}
+            alt="Hashi's Luxe Cleaning LLC Logo"
+            className="footer__logo"
+            loading="lazy"
+          />
           <p className="footer__subtitle">
             Professional cleaning services you can trust. Making homes and
             offices spotless across Minnesota.
@@ -83,7 +90,7 @@ function Footer() {
       </div>
 
       <p className="footer__copyright">
-        ©2026 Hashi's Luxe Cleaning LLC. All Rights Reserved.
+        © 2025 Hashi's Luxe Cleaning LLC. All Rights Reserved.
       </p>
     </footer>
   );

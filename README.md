@@ -11,13 +11,12 @@ Welcome to **Hashi's Luxe Cleaning**! We provide top-notch cleaning services tai
 
 ## Why Choose Us?
 - Professional and reliable staff
-- Eco-friendly cleaning products
 - Flexible scheduling
 - 100% satisfaction guaranteed
 
 ## Contact Us
 - 📞 Phone: 651-443-8589
-- 📧 Email: N/A 
-- 🌐 Website: N/A
+- 📧 Email: info@hashisluxecleaning.com
+- 🌐 Website: 
 
 Let us handle the mess so you can enjoy the rest!
