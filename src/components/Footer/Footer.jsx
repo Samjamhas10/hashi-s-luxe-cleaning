@@ -5,13 +5,13 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer" role="contentinfo" aria-label="footer">
+    <footer className="footer" role="contentinfo" aria-label="Footer">
       <div className="footer__container">
         <div className="footer__brand">
           <p className="footer__title">Hashi's Luxe Cleaning LLC</p>
           <img
             src={CleaningLogo}
-            alt="Hashi's Luxe Cleaning LLC Logo"
+            alt="Logo"
             className="footer__logo"
             loading="lazy"
           />
@@ -62,26 +62,21 @@ function Footer() {
             <h3 className="footer__title">Contact</h3>
             <address className="footer__contact-list">
               <a className="footer__contact-item" href="tel:+16514438589">
-                <FaPhone className="footer__icon" aria-hidden="true" />
-                <span className="sr-only">Phone:</span>
-                <span>(651) 443-8589</span>
+                <FaPhone className="footer__icon" /> <span>(651) 443-8589</span>
               </a>
               <a
                 className="footer__contact-item"
                 href="mailto:info@hashisluxecleaning.com"
               >
-                <FaEnvelope className="footer__icon" aria-hidden="true" />
-                <span className="sr-only">Email:</span>
+                <FaEnvelope className="footer__icon" />{" "}
                 <span>info@hashisluxecleaning.com</span>
               </a>
               <p className="footer__contact-item">
-                <FaMapMarkerAlt className="footer__icon" aria-hidden="true" />
-                <span className="sr-only">Location:</span>
+                <FaMapMarkerAlt className="footer__icon" />{" "}
                 <span>Minnesota, USA</span>
               </p>
               <p className="footer__contact-item">
-                <FaClock className="footer__icon" aria-hidden="true" />
-                <span className="sr-only">Hours:</span>
+                <FaClock className="footer__icon" />{" "}
                 <span>Mon - Sat: 8am - 6pm</span>
               </p>
             </address>
@@ -90,7 +85,8 @@ function Footer() {
       </div>
 
       <p className="footer__copyright">
-        © 2025 Hashi's Luxe Cleaning LLC. All Rights Reserved.
+        © {new Date().getFullYear()} Hashi's Luxe Cleaning LLC. All Rights
+        Reserved.
       </p>
     </footer>
   );

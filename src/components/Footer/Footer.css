@@ -11,6 +11,7 @@
 .footer__logo {
   width: 72px;
 }
+
 .footer__row {
   display: flex;
   flex-direction: row;
