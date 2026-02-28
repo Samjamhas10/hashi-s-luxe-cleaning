@@ -12,7 +12,6 @@ function Navigation() {
           className="nav__logo"
         />
       </a>
-
       <ul className="nav__list">
         <li className="nav__item">
           <a href="#home" className="nav__link">

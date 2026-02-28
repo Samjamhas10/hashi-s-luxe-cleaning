@@ -20,7 +20,6 @@ function Footer() {
             offices spotless across Minnesota.
           </p>
         </div>
-
         <div className="footer__row">
           <div className="footer__section">
             <h3 className="footer__title">Services</h3>
@@ -39,7 +38,6 @@ function Footer() {
               </li>
             </ul>
           </div>
-
           <div className="footer__section">
             <h3 className="footer__title">Company</h3>
             <ul className="footer__links">
@@ -57,7 +55,6 @@ function Footer() {
               </li>
             </ul>
           </div>
-
           <div className="footer__section">
             <h3 className="footer__title">Contact</h3>
             <address className="footer__contact-list">
@@ -83,7 +80,6 @@ function Footer() {
           </div>
         </div>
       </div>
-
       <p className="footer__copyright">
         © {new Date().getFullYear()} Hashi's Luxe Cleaning LLC. All Rights
         Reserved.
