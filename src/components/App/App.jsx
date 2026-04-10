@@ -4,6 +4,7 @@ import React from "react";
 import Home from "../Home/Home";
 import Navigation from "../Navigation/Navigation";
 import Services from "../Services/Services";
+import CleaningPics from "../CleaningPics/CleaningPics";
 import Pricing from "../Pricing/Pricing";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
@@ -17,6 +18,7 @@ function App() {
       <Navigation />
       <Home />
       <Services />
+      <CleaningPics />
       <Pricing />
       <Contact />
       <Footer />
