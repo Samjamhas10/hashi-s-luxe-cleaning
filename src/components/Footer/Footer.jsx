@@ -5,7 +5,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer" role="contentinfo" aria-label="Footer">
+    <footer className="footer" aria-label="Footer">
       <div className="footer__container">
         <div className="footer__brand">
           <p className="footer__title">Hashi's Luxe Cleaning LLC</p>
@@ -57,13 +57,18 @@ function Footer() {
           </div>
           <div className="footer__section">
             <h3 className="footer__title">Contact</h3>
-            <address className="footer__contact-list">
+            <address
+              className="footer__contact-list"
+              aria-label="Contact information"
+            >
               <a className="footer__contact-item" href="tel:+16514438589">
-                <FaPhone className="footer__icon" /> <span>(651) 443-8589</span>
+                <FaPhone className="footer__icon" aria-hidden="true" />{" "}
+                <span>(651) 443-8589</span>
               </a>
               <a
                 className="footer__contact-item"
                 href="mailto:infohashisluxecleaning@gmail.com"
+                aria-label="Email Hashi's Luxe Cleaning at infohashisluxecleaning@gmail.com"
               >
                 <FaEnvelope className="footer__icon" />{" "}
                 <span>infohashisluxecleaning@gmail.com</span>
