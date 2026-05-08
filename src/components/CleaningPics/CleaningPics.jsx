@@ -3,7 +3,11 @@ import "./CleaningPics.css";
 // import kitchenImage from "../../images/clean-kitchen.jpg";
 // import officeImage from "../../images/clean-office.jpg";
 // import bathroomImage from "../../images/clean-bathroom.jpg";
+import entry from "../../assets/entry.jpeg";
 import entryWay from "../../assets/entry-way.jpeg";
+import bathroomWay from "../../assets/bathroom-way.jpeg";
+import bathroom from "../../assets/bathroom.jpeg";
+import bathroomToilet from "../../assets/bathroom-toilet.jpeg";
 
 function CleaningPics() {
   const cleaningImages = [
@@ -27,9 +31,33 @@ function CleaningPics() {
     // },
     {
       id: 4,
+      src: entry,
+      alt: "Clean Entry",
+      caption: "Clean Entry",
+    },
+    {
+      id: 4,
       src: entryWay,
       alt: "Clean Entry Way",
       caption: "Clean Entry Way",
+    },
+    {
+      id: 5,
+      src: bathroomWay,
+      alt: "Clean Bathroom",
+      caption: "Clean Bathroom",
+    },
+    {
+      id: 6,
+      src: bathroom,
+      alt: "Clean Bathroom",
+      caption: "Clean Bathroom",
+    },
+    {
+      id: 7,
+      src: bathroomToilet,
+      alt: "Clean Bathroom Toilet",
+      caption: "Clean Bathroom Toilet",
     },
   ];
 
