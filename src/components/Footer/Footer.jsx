@@ -63,10 +63,10 @@ function Footer() {
               </a>
               <a
                 className="footer__contact-item"
-                href="mailto:info@hashisluxecleaning.com"
+                href="mailto:infohashisluxecleaning@gmail.com"
               >
                 <FaEnvelope className="footer__icon" />{" "}
-                <span>info@hashisluxecleaning.com</span>
+                <span>infohashisluxecleaning@gmail.com</span>
               </a>
               <p className="footer__contact-item">
                 <FaMapMarkerAlt className="footer__icon" />{" "}

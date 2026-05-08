@@ -16,11 +16,11 @@ function Contact() {
             <span>(651) 443-8589</span>
           </a>
           <a
-            href="mailto:info@hashisluxecleaning.com"
+            href="mailto:infohashisluxecleaning@gmail.com"
             className="contact__item"
           >
             <FaEnvelope className="contact__icon" />
-            <span>info@hashisluxecleaning.com</span>
+            <span></span>
           </a>
           <p className="contact__item">
             <FaMapMarkerAlt className="contact__icon" />
