@@ -20,7 +20,7 @@ function Contact() {
             className="contact__item"
           >
             <FaEnvelope className="contact__icon" />
-            <span></span>
+            <span>infohashisluxecleaning@gmail.com</span>
           </a>
           <p className="contact__item">
             <FaMapMarkerAlt className="contact__icon" />
